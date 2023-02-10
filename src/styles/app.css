@@ -1,11 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-
-    overflow-x: scroll;
     overflow-y: hidden;
+    overflow-x: visible;
 
     scroll-behavior: smooth;
 
-
+    text-decoration: none;
+    color: #3431A9  
 }

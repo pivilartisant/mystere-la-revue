@@ -1,10 +1,10 @@
 export function RevuesMystere (props) {
     return (
-        <div className="mystere-revues-container">
-
+        <div className="mystere-revues">
+            <div className="mystere-revues-container">
                 <div className="mystere-2-container">
                     <div className="mystere-2-title-container">
-                            <p className="mystere-2-title">Numéro 2 - La liberté en politique</p>
+                            <p className="mystere-2-title">Numéro 2 : La liberté en politique</p>
                     </div>
 
                     <div className="mystere-2-cover">
@@ -15,7 +15,7 @@ export function RevuesMystere (props) {
 
                 <div className="mystere-1-container">
                     <div className="mystere-1-title-container">
-                            <p className="mystere-1-title">Numéro 1 - Contreverse</p>
+                            <p className="mystere-1-title">Numéro 1 : Contreverse</p>
                     </div>
 
                     <div className="mystere-1-cover">
@@ -24,5 +24,6 @@ export function RevuesMystere (props) {
 
                 </div>
             </div>
+        </div>
     )
 }

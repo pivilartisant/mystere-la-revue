@@ -13,40 +13,56 @@
     .revue{
         /* min-width: 2000px; */
         min-width: fit-content;
-        min-height: 100vh;
-    
+        height: 100vh;
+        min-height:100vh;
+        max-height: 100vh;
         background-color: #F5F4F4;
+        overflow: hidden;
 
-        overflow-y: hidden;
     }
 
     .revue-container{
 
+      
         min-width: 100%;
-        height: 100vh;
+        min-height: 100vh;
 
         display: flex;
         flex-direction: row;
         align-items: flex-start;
 
-        margin-left: 44px;
+        margin-left: 48px;
+        overflow-y: hidden;
 
-
-        background-color: aqua;
 
     }
 
     .revue-main-content{
 
-        height: 100%;
-        width: 70vw;
-        margin-top: 40px;
+        min-height: 100vh;
+        width: 236px;
+        max-width: 236px;
 
-        padding: 0px 30px 0px 30px;
+
+        padding: 40px 30px 40px 20px;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+
+        background-color: red;
+      
+        overflow: hidden;
+    }
+
+    .revue-main-content-container{
+        background-color: blue;
+        padding: 5px;
+    }
+
+    .revue-title-container{
+        background-color: aqua;
+        padding: 5px;
     }
     .revue-title{
 
@@ -56,6 +72,12 @@
         font-size: 36px;
 
         padding: 0px 0px 30px 0px;
+     
+    }
+
+    .revue-text-container{
+        padding: 5px;
+        background-color: chartreuse    ;
     }
 
     .revue-text{
@@ -66,6 +88,7 @@
         font-size: 0.9rem;
 
         text-align: justify;
+   
     }
 
     .arrow-container{
@@ -89,51 +112,77 @@
         width: 170px; 
     }
 
-    .mystere-revues-container{
+    .mystere-revues{
 
-        position: relative;
-        margin-top: 80px;
-
-        height: 100%;
+        width: 672px;
+        max-width: 672px;
+        min-height: 100vh;
 
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+     
+        overflow: hidden;
+
+        background-color: chartreuse;
  
     }
 
+    .mystere-revues-container{
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
     .mystere-2-container {
-        margin: 0px 15px 0px 0px;
-        background-color: bisque;
-width: 100%;
+        background-color: yellow;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 10px;
     }
 
     
     .mystere-2-title-container {
-        margin: 0px 0px 20px 0px;
+        padding: 5px;
+        background-color: chocolate;
     }
 
     .mystere-2-title {
+        text-align: center;
         font-family: Karrik;
         color: #3431A9;
-        font-size: 20px;
+        font-size: 1.1rem;
+    }
+
+    .mystere-2-cover{
+        padding: 5px;
+        background-color: red;
+    }
+
+    .mystere-2-img {
+        height: 320px;
     }
 
     .mystere-1-container{
-        margin: 0px 30px 0px 30px;
 
+        background-color: red;
         width: 100%;
-
-        background-color: bisque;
-
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 10px;
     }
 
     .mystere-1-title-container {
-        margin: 0px 0px 20px 0px;
+        padding: 5px;
+        background-color: darkgray;
     }
 
     .mystere-1-title {
@@ -142,12 +191,13 @@ width: 100%;
         font-size: 20px;
     }
 
-    .mystere-2-img {
-        width: 230px;
+    .mystere-1-cover{
+        padding: 5px;
+        background-color: black;
     }
 
     .mystere-1-img{
-        width: 260px;
+     height: 300px;
     }
 
  
