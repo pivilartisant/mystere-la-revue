@@ -6,7 +6,7 @@
     }
 .navbar {
     position: fixed;
-    min-height: 100vh;
+    min-height: 100%;
     width: 48px;
     
     border-right: solid 0.5px #AEAEAE;

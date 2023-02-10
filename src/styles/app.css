@@ -1,23 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    overflow-y: hidden;
-    overflow-x: visible;
-
-    scroll-behavior: smooth;
-
-    text-decoration: none;
-    color: #3431A9;
-}
-
-body{
-    overflow-y: hidden;
-}
-
-
 .App{
     width: fit-content;
-    height: 100vh;
+    height: 100%;
 
     background-color: #F5F4F4;
 
