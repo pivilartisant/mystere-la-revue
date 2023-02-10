@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { BibliothequeMain } from "../components/Content/Bilbiotheque/BibliothequeMain";
 import { Navbar } from "../components/UI/Navbar";
 

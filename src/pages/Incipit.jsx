@@ -1,12 +1,9 @@
 import '../styles/incipit-mobile.css';
-import bg from "../assets/png/incipit/bg.png";
 
 export function Incipit() {
     return (
 
      <div className="incipit">   
-
-        {/* <img classname="bg-img" src={bg} alt="" srcset="" /> */}
 
         <p className="incipit-page-title title-mystère">  MYSTERE </p>
         <p className="incipit-page-title title-bibliothèque"> <a href="/bibliotheque"> LA BIBLIOTHEQUE </a></p>
