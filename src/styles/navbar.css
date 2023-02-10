@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Karrik";
+    src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
+    }
+
+.navbar {
+    position: fixed;
+    height: 100%;
+    
+    border-right: solid 0.5px #AEAEAE;
+
+    writing-mode: vertical-lr;
+    background-color: white;
+
+    z-index: 2;
+}
+
+.navbar-container{
+    width: 100%;
+
+}
+
+.nav-list{
+    width: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    font-family: Karrik;
+    font-size: 28px;
+    padding: 8px 4px 8px 4px;
+}
