@@ -9,3 +9,12 @@
     text-decoration: none;
     color: #3431A9;
 }
+
+.App{
+    width: fit-content;
+    height: 100vh;
+
+    background-color: #F5F4F4;
+
+
+}
