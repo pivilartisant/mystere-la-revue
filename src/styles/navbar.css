@@ -2,7 +2,7 @@
     font-family: "Karrik";
     src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
          url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
-         url("../assets/fonts/Web/TFF/Karrik-Regular.tff") format("truetype"),
+         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype"),
     }
 .navbar {
     position: fixed;
