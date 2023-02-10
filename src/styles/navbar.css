@@ -6,7 +6,7 @@
     }
 .navbar {
     position: fixed;
-    height: 100vh;
+    min-height: 100%;
     width: 48px;
     
     border-right: solid 0.5px #AEAEAE;
@@ -16,15 +16,14 @@
 
     z-index: 1;
 
-
     text-decoration: none;
-    color: #3431A9  
+    color: #3431A9;
+    
+    overflow-y: hidden;
 }
 
 .navbar-container{
     width: 100%;
-
-
 }
 
 .nav-list{
