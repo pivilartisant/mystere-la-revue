@@ -21,9 +21,11 @@ body {
 
 
 #root{
+    position: relative;
+    height: 100%;
     display: inline-block;
     overflow-y: hidden;
-    height: 100vh;
+    /* height: 100vh; */
 
     margin: 0px;
     padding: 0px;
