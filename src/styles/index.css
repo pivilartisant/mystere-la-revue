@@ -9,6 +9,12 @@
     overflow-y: hidden;
 }
 
+html,
+body {
+    overflow-y: hidden;
+} 
+
+
 
 
 
