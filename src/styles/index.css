@@ -12,6 +12,8 @@
 html,
 body {
     overflow-y: hidden;
+    position: relative;
+    height: 100%;
 } 
 
 
