@@ -21,7 +21,7 @@ body {
 
 
 #root{
-    position: relative;
+    position: fixed;
     height: 100%;
     display: inline-block;
     overflow-y: hidden;
