@@ -14,7 +14,7 @@ import mystere2 from "../assets/png/revue/mystere2.png";
 export function Revue() {
     return (
      <div className="revue">
-        <Navbar />
+            <Navbar />
         <main className="revue-container">
 
         <RevueMain />

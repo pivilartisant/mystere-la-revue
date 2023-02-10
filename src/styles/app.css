@@ -10,11 +10,16 @@
     color: #3431A9;
 }
 
+body{
+    overflow-y: hidden;
+}
+
+
 .App{
     width: fit-content;
     height: 100vh;
 
     background-color: #F5F4F4;
 
-
+    overflow-y: hidden;
 }
