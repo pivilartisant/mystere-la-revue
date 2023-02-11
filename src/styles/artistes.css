@@ -2,13 +2,15 @@
     font-family: "Karrik";
     src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
          url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
-         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype"),
+         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
     }
 
 @font-face {
-    font-family: "Monde";
-    src: url("../assets/fonts/LeMondeLivre-Normal.otf") format("opentype"),
+    font-family: "Prata";
+    src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");
+   
     }
+    
 
     .artistes{
         /* min-width: 2000px; */
@@ -60,13 +62,15 @@
 
         color: #3431A9;
 
-        font-family: Monde;
-        font-size: 18px;
+        font-family: Prata;
+        font-size: 0.8rem;
 
         text-align: justify;
     }
 
     .arrow-2-container{
+
+        display: none;
 
         overflow: visible;
 
@@ -121,14 +125,15 @@
 
     .mystere-2-artist-list li{
 
-        font-size: 20px;
+        font-family: Prata;
+        font-size: 0.8rem;
         margin: 30px 0px 40px 0px;
         color: #3431A9;
     }
 
     .mystere-2-artist-list li em{
 
-        font-size: 20px;
+        font-size: 0.8rem;
         color: #3431A9;
     }
 
@@ -150,7 +155,8 @@
     }
 
     .mystere-1-artist-list li{
-        font-size: 20px;
+        font-family: Prata;
+        font-size: 0.8rem;
         margin: 30px 0px 40px 0px;
 
         color: #3431A9;
@@ -159,7 +165,7 @@
 
     .mystere-1-artist-list li em{
 
-        font-size: 20px;
+        font-size: 0.8rem;
         color: #3431A9;
     }
 

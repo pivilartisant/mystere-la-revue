@@ -2,7 +2,7 @@ export function CommunauteMain(){
     return (
         <div className="communaute-main-content">
         <div className="communaute-title-container">
-            <p className="communaute-title">La Bibliotheque</p>
+            <p className="communaute-title">La Communaute</p>
         </div>
         <div className="communaute-text-container">
             <p className="communaute-text">

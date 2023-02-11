@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "Karrik";
+    src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
+         url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
+         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
+    }
 
+@font-face {
+    font-family: "Prata";
+    src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");
+   
+    }
 *{
     text-decoration: none;
     color: #3431A9;

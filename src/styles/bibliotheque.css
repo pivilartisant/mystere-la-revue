@@ -2,65 +2,77 @@
     font-family: "Karrik";
     src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
          url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
-         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype"),
+         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
     }
 
 @font-face {
-    font-family: "Monde";
-    src: url("../assets/fonts/LeMondeLivre-Normal.otf") format("opentype"),
+    font-family: "Prata";
+    src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");
+   
     }
 
     .bibliotheque{
-        /* min-width: 2000px; */
-        min-width: fit-content;
-        min-height: 100vh;
-    
+
+        width: 100vw;
+        height: 100%;
+        min-height:100%;
         background-color: #F5F4F4;
 
         overflow: hidden;
+        display: inline-block;
     }
 
     .bibliotheque-container{
 
+        width: 100%;
         min-width: 100%;
-        height: 100vh;
-
+        min-height: 100%;
+        height: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
 
-        margin-left: 44px;
+        margin-left: 48px;
+
+        margin-left: 48px;
+        overflow-y: hidden;
+        overflow-x: visible;
+        background-color: #F5F4F4;
     }
 
     .bibliotheque-main-content{
 
-        height: 80%;
-        width: 70vw;
+        min-height: 100%;
+        height: 100%;
+        width: 80vw;
 
-        padding: 0px 30px 0px 30px;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        overflow: hidden;
+        padding: 10px;
+
+        background-color: red;
+    }
+
+    .bibliotheque-title-container{
+        background-color: green;
+        padding: 5px;
     }
     .bibliotheque-title{
 
         color: #3431A9;
 
         font-family: Karrik;
-        font-size: 36px;
-
-        padding: 0px 0px 30px 0px;
+        font-size: 2.2rem;
     }
 
     .bibliotheque-text{
 
         color: #3431A9;
 
-        font-family: Monde;
-        font-size: 18px;
+        font-family: Prata;
+        font-size: 0.8rem;
 
         text-align: justify;
     }
