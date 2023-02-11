@@ -12,52 +12,63 @@
     }
 
     .communaute{
-        /* min-width: 2000px; */
         min-width: fit-content;
-        min-height: 100vh;
-    
+
+        height: 100%;
+        min-height:100%;
         background-color: #F5F4F4;
 
         overflow: hidden;
+        display: inline-block;
     }
 
     .communaute-container{
 
+        width: 100%;
         min-width: 100%;
-        height: 100vh;
-
+        min-height: 100%;
+        height: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
 
-        margin-left: 44px;
+        margin-left: 48px;
+        overflow-y: hidden;
+        overflow-x: visible;
     }
 
     .communaute-main-content{
+        min-height: 100%;
+        height: 100%;
+        /* width: 236px; */
+        width: 256px;
+        max-width: 100%;
 
-        height: 80%;
-        width: 70vw;
 
-        padding: 0px 30px 0px 30px;
+        padding: 40px 10px 10px 10px;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-
-        overflow: hidden;
+        align-items: flex-start;
     }
-    .communaute-title{
 
+    .communaute-title-container{
+        padding: 5px;
+    }
+
+    .communaute-title{
         color: #3431A9;
 
         font-family: Karrik;
-        font-size: 1.8rem;
-
-        padding: 0px 0px 30px 0px;
+        font-size: 2rem;
     }
 
-    .communaute-text{
 
+    .communaute-text-container{
+        padding: 5px;
+    }
+    
+    .communaute-text{
         color: #3431A9;
 
         font-family: Prata;
