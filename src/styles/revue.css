@@ -34,7 +34,7 @@
         margin-left: 48px;
         overflow-y: hidden;
         overflow-x: visible;
-        background-color: purple;
+        /* background-color: purple; */
 
     }
 
@@ -42,7 +42,7 @@
         min-height: 100%;
         height: 100%;
         /* width: 236px; */
-        width: 236px;
+        width: 256px;
         max-width: 100%;
 
 
@@ -53,18 +53,18 @@
         justify-content: center;
         align-items: center;
 
-        background-color: red;
+        /* background-color: red; */
 
         
     }
 
     .revue-main-content-container{
-        background-color: blue;
+        /* background-color: blue; */
         padding: 5px;
     }
 
     .revue-title-container{
-        background-color: green;
+        /* background-color: green; */
         padding: 5px;
     }
     .revue-title{
@@ -72,12 +72,12 @@
         color: #3431A9;
 
         font-family: Karrik;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .revue-text-container{
         padding: 5px;
-        background-color: chartreuse    ;
+        /* background-color: chartreuse    ; */
     }
 
     .revue-text{
@@ -124,21 +124,21 @@
      
         overflow: hidden;
 
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
 
         padding: 10px;
  
     }
 
     .mystere-revues-container{
-        background-color: cornflowerblue;
+        /* background-color: cornflowerblue; */
         display: flex;
         flex-direction: row;
         padding: 20px;
     }
 
     .mystere-2-container {
-        background-color: yellow;
+        /* background-color: yellow; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -151,7 +151,7 @@
     
     .mystere-2-title-container {
         padding: 5px;
-        background-color: chocolate;
+        /* background-color: chocolate; */
     }
 
     .mystere-2-title {
@@ -163,7 +163,7 @@
 
     .mystere-2-cover{
         padding: 5px;
-        background-color: red;
+        /* background-color: red; */
     }
 
     .mystere-2-img {
@@ -172,7 +172,7 @@
 
     .mystere-1-container{
 
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -184,7 +184,7 @@
 
     .mystere-1-title-container {
         padding: 5px;
-        background-color: darkgray;
+        /* background-color: darkgray; */
     }
 
     .mystere-1-title {
@@ -195,7 +195,7 @@
 
     .mystere-1-cover{
         padding: 5px;
-        background-color: black;
+        /* background-color: black; */
     }
 
     .mystere-1-img{
