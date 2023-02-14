@@ -1,16 +1,21 @@
-import '../styles/incipit-mobile.css';
+import '../styles/incipit.css';
 
 export function Incipit() {
     return (
 
-     <div className="incipit">   
+     <div className="incipit">  
+    
+        <div className="incipit-container">
+            <div className="incipit-main-content">
+                <div className="incipit-logo-container">
+                    <p className="incipit-logo">?</p>
+                </div>
 
-        <p className="incipit-page-title title-mystère">  MYSTERE </p>
-        <p className="incipit-page-title title-bibliothèque"> <a href="/bibliotheque"> LA BIBLIOTHEQUE </a></p>
-        <p className="incipit-page-title title-revue">  <a href="/revue"> LA REVUE </a></p>
-        <p className="incipit-page-title title-communauté"> <a href="/communaute"> LA COMMUNAUTE </a></p>
-        <p className="incipit-page-title title-artistes"> <a href="/artistes"> LES  ARTISTES </a></p>
-
+                <div className="incipit-link-container">
+                    <p className="incipit-link"> <a href="/revue"> Entrez & découvrez Mystère </a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     )

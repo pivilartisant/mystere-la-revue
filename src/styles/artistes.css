@@ -10,7 +10,10 @@
     src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");
    
     }
+
+    @media only screen and (max-width: 820px) and (min-width: 320px)  {
     
+
 
     .artistes{
         min-width: fit-content;
@@ -202,7 +205,203 @@
         color: #3431A9;
     }
 
-   
+}
+
+@media only screen and (min-width: 821px)  {
+    
+
+
+    .artistes{
+        min-width: fit-content;
+
+        height: 100%;
+        min-height:100%;
+        background-color: #F5F4F4;
+
+        overflow: hidden;
+        display: inline-block;
+
+    }
+
+    .artistes-container{
+
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+        margin-left: 48px;
+        overflow-y: hidden;
+        overflow-x: visible;
+        
+    }
+
+    .artistes-main-content{
+
+        min-height: 100%;
+        height: 100%;
+        /* width: 236px; */
+        width: 256px;
+        max-width: 100%;
+
+
+        padding: 40px 10px 10px 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .artistes-title-container{
+        padding: 5px;
+    }
+    .artistes-title{
+
+        color: #3431A9;
+
+        font-family: Karrik;
+        font-size: 2rem;
+    }
+
+    .artistes-text-container{
+        padding: 5px;
+    }
+
+    .artistes-text{
+
+       
+        color: #3431A9;
+
+        font-family: Prata;
+        font-size: 0.8rem;
+
+        text-align: justify;
+    }
+
+    .arrow-2-container{
+
+        display: none;
+
+        overflow: visible;
+
+        margin: 0px 10px 0px 10px;
+
+        position: relative;
+
+        top: -50px;
+        left:-160px;
+
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .right-arrow{
+
+        height: 90px;
+        width: 170px; 
+    }
+
+    .mystere-artist-content{
+
+        width: fit-content;
+
+        min-height: 100%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+     
+        overflow: hidden;
+
+        /* background-color: chartreuse; */
+
+        padding: 40px 10px 10px 10px;
+    }
+
+    .mystere-artist-content-container{
+          /* background-color: cornflowerblue; */
+          display: flex;
+          flex-direction: row;
+          padding: 20px;
+    }
+
+    .mystere-2-artist-container {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        margin: 0px 15px 0px 0px;
+    }
+    
+    .mystere-2-title-container {
+        padding: 5px;
+    }
+
+    .mystere-2-title {
+        text-align: left;
+        font-family: Karrik;
+        color: #3431A9;
+        font-size: 1.1rem;
+    }
+
+    .mystere-2-artist-list li{
+
+        font-family: Prata;
+        font-size: 0.8rem;
+        margin: 12px 0px 12px 0px;
+        color: #3431A9;
+    }
+
+    .mystere-2-artist-list li em{
+
+        font-size: 0.8rem;
+        color: #3431A9;
+    }
+
+
+
+    .mystere-1-artist-container{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        margin: 0px 0px 0px 15px;
+    }
+
+    .mystere-1-title-container {
+        padding: 5px;
+    }
+
+    .mystere-1-title {
+        text-align: left;
+        font-family: Karrik;
+        color: #3431A9;
+        font-size: 1.1rem;
+    }
+
+    .mystere-1-artist-list li{
+        font-family: Prata;
+        font-size: 0.8rem;
+        margin: 12px 0px 12px 0px;
+        color: #3431A9;
+    }
+
+
+    .mystere-1-artist-list li em{
+
+        font-size: 0.8rem;
+        color: #3431A9;
+    }
+
+}
 
  
 
