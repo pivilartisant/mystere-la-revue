@@ -70,6 +70,7 @@
     }
     .revue-title{
 
+
         color: #3431A9;
 
         font-family: Karrik;
@@ -228,7 +229,7 @@
         display: flex;
         flex-direction: row;
 
-        margin-left: 44px;
+        margin-left: 48px;
         overflow-y: hidden;
         overflow-x: visible;
         /* background-color: purple; */
@@ -251,10 +252,10 @@
         
     }
 
-    .revue-main-content-container{
-        /* background-color: blue; */
-        padding: 5px;
-    }
+    /* .revue-main-content-container{
+  
+
+    } */
 
     .revue-title-container{
         /* background-color: green; */
@@ -277,25 +278,21 @@
         color: #3431A9;
 
         font-family: Prata;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
 
         text-align: justify;
    
     }
 
     .arrow-container{
-
-        margin: 0px 10px 0px 10px;
-
-        position: relative;
-
-        top: 300px;
-        left:-100px;
+        position: absolute;
 
         width: fit-content;
-        height: fit-content;
+        height: fit-content;        
 
-        display: none;
+        top:600px;
+        left: 200px;
+
     }
 
     .right-arrow{
@@ -305,9 +302,9 @@
     }
 
     .mystere-revues{
-
-        width: 672px;
-        max-width: 672px;
+        
+        width: fit-content;
+        /* max-width: 672px; */
         min-height: 100%;
 
         display: flex;
@@ -318,7 +315,8 @@
 
         /* background-color: chartreuse; */
 
-        padding: 40px 10px 10px 10px;
+        padding: 54px 10px 10px 10px;
+        margin-left: 80px;
  
     }
 
@@ -331,19 +329,18 @@
 
     .mystere-2-container {
         /* background-color: yellow; */
-        width: 100%;
+        min-width: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
 
-        padding: 10px;
+        padding: 10px 80px 10px 10px
     }
 
     
     .mystere-2-title-container {
         padding: 5px;
-        /* background-color: chocolate; */
     }
 
     .mystere-2-title {
@@ -355,23 +352,22 @@
 
     .mystere-2-cover{
         padding: 5px;
-        /* background-color: red; */
     }
 
     .mystere-2-img {
-        height: 320px;
+        height: 520px;
     }
 
     .mystere-1-container{
 
         /* background-color: red; */
-        width: 100%;
+        min-width: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
 
-        padding: 10px;
+        padding: 10px 10px 10px 40px;
     }
 
     .mystere-1-title-container {
@@ -391,7 +387,7 @@
     }
 
     .mystere-1-img{
-     height: 300px;
+     height: 520px;
     }
 }
  

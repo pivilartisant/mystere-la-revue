@@ -1,4 +1,5 @@
 import '../styles/incipit.css';
+import logo from '../assets/png/incipit/logo.png'
 
 export function Incipit() {
     return (
@@ -8,12 +9,14 @@ export function Incipit() {
         <div className="incipit-container">
             <div className="incipit-main-content">
                 <div className="incipit-logo-container">
-                    <p className="incipit-logo">?</p>
+                    <a href="/revue">
+                        <img className="incipit-logo" alt="mystere-log" src={logo}/>
+                    </a>
                 </div>
 
-                <div className="incipit-link-container">
-                    <p className="incipit-link"> <a href="/revue"> Entrez & découvrez Mystère </a></p>
-                </div>
+                {/* <div className="incipit-link-container">
+                    <p className="incipit-link">  Entrez & découvrez Mystère </p>
+                </div> */}
             </div>
         </div>
     </div>

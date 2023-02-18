@@ -1,6 +1,7 @@
 import { CommunauteMain } from "../components/Content/Communaute/CommunauteMain";
 import { Navbar } from "../components/UI/Navbar";
 import "../styles/communaute.css"
+import circle from "../assets/png/circle.gif";
 
 export function Communaute() {
     return (
@@ -10,8 +11,9 @@ export function Communaute() {
 
             <main className="communaute-container">
                 <CommunauteMain />
-            </main>
 
+                {/* <img src={circle} alt="circle Animation" /> */}
+            </main>
                 
      </div>
     )

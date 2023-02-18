@@ -1,11 +1,21 @@
+import trait from "../../../assets/png/artistes/trait1.png"
+import { Line1 } from "../../UI/Line1"
+
 export function ArtistesMystere(){
     return (
         <div className="mystere-artist-content">
              <div className="mystere-artist-content-container">
                 <div className="mystere-2-artist-container">
-                    <div className="mystere-2-title-container">
-                            <p className="mystere-2-title">Numéro 2 : <br></br> La liberté en politique</p>
-                    </div>
+
+                    
+
+                         <div className="mystere-2-title-container">
+                                 <p className="mystere-2-title">Numéro 2 : <br></br> La liberté en politique</p>
+                                 <Line1 trait={trait}/>
+                         </div>
+
+                    
+
 
                     <div className="mystere-2-artist">
 
@@ -25,6 +35,7 @@ export function ArtistesMystere(){
                 <div className="mystere-1-artist-container">
                     <div className="mystere-1-title-container">
                             <p className="mystere-1-title">Numéro 1 : <br></br> La Contreverse</p>
+                            <Line1 trait={trait}/>
                     </div>
 
                     <div className="mystere-1-artist">

@@ -18,4 +18,9 @@
     background-color: #F5F4F4;
 
     overflow-y: hidden;
+
+}
+
+body{
+    cursor: crosshair;
 }

@@ -277,26 +277,21 @@
         color: #3431A9;
 
         font-family: Prata;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
 
         text-align: justify;
     }
 
     .arrow-2-container{
 
-        display: none;
-
-        overflow: visible;
-
-        margin: 0px 10px 0px 10px;
-
-        position: relative;
-
-        top: -50px;
-        left:-160px;
+        position: absolute;
 
         width: fit-content;
-        height: fit-content;
+        height: fit-content;        
+
+        top:300px;
+        left: 200px;
+        transform: rotate(36deg);
     }
 
     .right-arrow{
@@ -306,98 +301,127 @@
     }
 
     .mystere-artist-content{
-
-        width: fit-content;
+        width: 800px;
 
         min-height: 100%;
 
         display: flex;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
         align-items: flex-start;
      
         overflow: hidden;
 
         /* background-color: chartreuse; */
 
-        padding: 40px 10px 10px 10px;
+        padding: 64px 10px 10px 10px;
     }
 
     .mystere-artist-content-container{
           /* background-color: cornflowerblue; */
-          display: flex;
-          flex-direction: row;
-          padding: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px;
     }
 
     .mystere-2-artist-container {
-        width: 200px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px;
+
+
+    }    
+
+
+    .mystere-2-title-container {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
 
-        margin: 0px 15px 0px 0px;
-    }
-    
-    .mystere-2-title-container {
-        padding: 5px;
     }
 
     .mystere-2-title {
         text-align: left;
         font-family: Karrik;
         color: #3431A9;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+    }
+
+
+    .mystere-line-img{
+        height: 18px;
+    }
+
+    .mystere-2-artist{
+        display: inline;
+    }
+
+    .mystere-2-artist-list{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .mystere-2-artist-list li{
 
         font-family: Prata;
-        font-size: 0.8rem;
-        margin: 12px 0px 12px 0px;
+        font-size: 1rem;
+        margin: 20px 0px 20px 0px;
         color: #3431A9;
+        padding-left: 7px;
     }
 
     .mystere-2-artist-list li em{
 
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: #3431A9;
     }
 
 
 
     .mystere-1-artist-container{
-        width: 200px;
+        width: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-
-        margin: 0px 0px 0px 15px;
+        padding: 5px;
     }
 
     .mystere-1-title-container {
-        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .mystere-1-title {
         text-align: left;
         font-family: Karrik;
         color: #3431A9;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .mystere-1-artist-list li{
         font-family: Prata;
-        font-size: 0.8rem;
-        margin: 12px 0px 12px 0px;
+        font-size: 1rem;
+        margin: 20px 0px 20px 0px;
         color: #3431A9;
+        padding-left: 7px;
     }
 
 
     .mystere-1-artist-list li em{
 
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: #3431A9;
     }
 
