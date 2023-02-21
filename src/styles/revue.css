@@ -28,10 +28,9 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
     height: 100%;
     display: flex;
     flex-direction: row;
-    margin-left: 44px;
+    margin-left: 48px;
     overflow-y: hidden;
     overflow-x: visible;
-    /* background-color: purple; */
 }
 
 .revue-main-content{
@@ -46,12 +45,10 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 }
 
 .revue-main-content-container{
-    /* background-color: blue; */
     padding: 5px;
 }
 
 .revue-title-container{
-    /* background-color: green; */
     padding: 5px;
 }
 .revue-title{
@@ -74,17 +71,16 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 
 .arrow-container{
     margin: 0px 10px 0px 10px;
-    position: relative;
-    top: 300px;
-    left:-100px;
+    position: absolute;
+    top: 490px;
+    left: 200px;
+    
     width: fit-content;
     height: fit-content;
-    display: none;
 }
 
 .right-arrow{
-    height: 90px;
-    width: 170px; 
+   min-height: 80px;
 }
 
 .mystere-revues{
@@ -96,78 +92,72 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
     align-items: flex-start;
  
     overflow: hidden;
-    /* background-color: chartreuse; */
-    padding: 40px 10px 10px 10px;
-
+    padding: 54px 10px 10px 10px;
 }
 
 .mystere-revues-container{
-    /* background-color: cornflowerblue; */
     display: flex;
     flex-direction: row;
     padding: 20px;
 }
 
 .mystere-2-container {
-    /* background-color: yellow; */
-    width: 100%;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
 }
 
     
 .mystere-2-title-container {
+    display: flex;
     padding: 5px;
-    /* background-color: chocolate; */
 }
 
 .mystere-2-title {
-    text-align: center;
     font-family: Karrik;
     color: #3431A9;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
 }
 
 .mystere-2-cover{
     padding: 5px;
-    /* background-color: red; */
 }
 
 .mystere-2-img {
-    height: 320px;
+    height: 360px;
 }
 
 .mystere-1-container{
-    /* background-color: red; */
-    width: 100%;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
 }
 
 .mystere-1-title-container {
+    width: fit-content;
+    display: flex;
     padding: 5px;
-    /* background-color: darkgray; */
 }
 
 .mystere-1-title {
+    text-align: left;
     font-family: Karrik;
     color: #3431A9;
-    font-size: 20px;
+    font-size: 1.05rem;
 }
 
 .mystere-1-cover{
     padding: 5px;
-    /* background-color: black; */
 }
 
 .mystere-1-img{
- height: 300px;
+ height: 360px;
 }
 }
 
@@ -197,6 +187,8 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
     /* background-color: purple; */
 }
 
+
+
 .revue-main-content{
     min-height: 100%;
     height: 100%;
@@ -209,8 +201,11 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
     
 }
 
+.revue-main-content-container{
+    padding: 5px;
+}
+
 .revue-title-container{
-    /* background-color: green; */
     padding: 5px;
 }
 
@@ -236,7 +231,7 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
     position: absolute;
     width: fit-content;
     height: fit-content;        
-    top:600px;
+    top:60px;
     left: 200px;
 }
 
@@ -262,14 +257,12 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 }
 
 .mystere-revues-container{
-    /* background-color: cornflowerblue; */
     display: flex;
     flex-direction: row;
     padding: 20px;
 }
 
 .mystere-2-container {
-    /* background-color: yellow; */
     min-width: fit-content;
     display: flex;
     flex-direction: column;
@@ -309,7 +302,6 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 }
 
 .mystere-1-container{
-    /* background-color: red; */
     min-width: fit-content;
     display: flex;
     flex-direction: column;
@@ -320,7 +312,6 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 
 .mystere-1-title-container {
     padding: 5px;
-    /* background-color: darkgray; */
 }
 
 .mystere-1-title {
@@ -341,7 +332,6 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 
 .mystere-1-cover{
     padding: 5px;
-    /* background-color: black; */
 }
 
 .mystere-1-img{
