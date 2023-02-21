@@ -69,7 +69,7 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 .arrow-container{
     margin: 0px 10px 0px 10px;
     position: absolute;
-    top: 470px;
+    top: 450px;
     left: 170px;
     
     width: fit-content;
