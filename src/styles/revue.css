@@ -1,393 +1,351 @@
 @font-face {
-    font-family: "Karrik";
-    src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
-         url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
-         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
-    }
+font-family: "Karrik";
+src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
+     url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
+     url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
+}
 
 @font-face {
     font-family: "Prata";
-    src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");
-   
-    }
+    src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");   
+}
 
-     /*Mobile & Tablet*/
+/*Mobile & Tablet*/
+@media only screen and (max-width: 820px) and (min-width: 320px)  {
+.revue{
+    min-width: 1000px;
+    height: 100%;
+    min-height:100%;
+    background-color: #F5F4F4;
+    overflow: hidden;
+    display: inline-block;
+}
 
-    @media only screen and (max-width: 820px) and (min-width: 320px)  {
-    
-  
-    .revue{
-        min-width: 1000px;
+.revue-container{
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 44px;
+    overflow-y: hidden;
+    overflow-x: visible;
+    /* background-color: purple; */
+}
 
-        height: 100%;
-        min-height:100%;
-        background-color: #F5F4F4;
+.revue-main-content{
+    min-height: 100%;
+    height: 100%;
+    width: 256px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 10px 10px 10px;
+}
 
-        overflow: hidden;
-        display: inline-block;
-    }
+.revue-main-content-container{
+    /* background-color: blue; */
+    padding: 5px;
+}
 
-    .revue-container{
+.revue-title-container{
+    /* background-color: green; */
+    padding: 5px;
+}
+.revue-title{
+    color: #3431A9;
+    font-family: Karrik;
+    font-size: 2rem;
+}
 
-        width: 100%;
-        min-width: 100%;
-        min-height: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
+.revue-text-container{
+    padding: 5px;
+}
 
-        margin-left: 44px;
-        overflow-y: hidden;
-        overflow-x: visible;
-        /* background-color: purple; */
+.revue-text{
+    color: #3431A9;
+    font-family: Prata;
+    font-size: 0.8rem;
+    text-align: justify;
 
-    }
+}
 
-    .revue-main-content{
-        min-height: 100%;
-        height: 100%;
+.arrow-container{
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    top: 300px;
+    left:-100px;
+    width: fit-content;
+    height: fit-content;
+    display: none;
+}
 
-        width: 256px;
-        max-width: 100%;
+.right-arrow{
+    height: 90px;
+    width: 170px; 
+}
 
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-
-        padding: 40px 10px 10px 10px;
-        
-    }
-
-    .revue-main-content-container{
-        /* background-color: blue; */
-        padding: 5px;
-    }
-
-    .revue-title-container{
-        /* background-color: green; */
-        padding: 5px;
-    }
-    .revue-title{
-
-
-        color: #3431A9;
-
-        font-family: Karrik;
-        font-size: 2rem;
-    }
-
-    .revue-text-container{
-        padding: 5px;
-    }
-
-    .revue-text{
-
-        color: #3431A9;
-
-        font-family: Prata;
-        font-size: 0.8rem;
-
-        text-align: justify;
-   
-    }
-
-    .arrow-container{
-
-        margin: 0px 10px 0px 10px;
-
-        position: relative;
-
-        top: 300px;
-        left:-100px;
-
-        width: fit-content;
-        height: fit-content;
-
-        display: none;
-    }
-
-    .right-arrow{
-
-        height: 90px;
-        width: 170px; 
-    }
-
-    .mystere-revues{
-
-        width: 672px;
-        max-width: 672px;
-        min-height: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-     
-        overflow: hidden;
-
-        /* background-color: chartreuse; */
-
-        padding: 40px 10px 10px 10px;
+.mystere-revues{
+    width: 672px;
+    max-width: 672px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
  
-    }
+    overflow: hidden;
+    /* background-color: chartreuse; */
+    padding: 40px 10px 10px 10px;
 
-    .mystere-revues-container{
-        /* background-color: cornflowerblue; */
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-    }
+}
 
-    .mystere-2-container {
-        /* background-color: yellow; */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
+.mystere-revues-container{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
 
-        padding: 10px;
-    }
+.mystere-2-container {
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
 
     
-    .mystere-2-title-container {
-        padding: 5px;
-        /* background-color: chocolate; */
-    }
+.mystere-2-title-container {
+    padding: 5px;
+    /* background-color: chocolate; */
+}
 
-    .mystere-2-title {
-        text-align: center;
-        font-family: Karrik;
-        color: #3431A9;
-        font-size: 1.1rem;
-    }
+.mystere-2-title {
+    text-align: center;
+    font-family: Karrik;
+    color: #3431A9;
+    font-size: 1.1rem;
+}
 
-    .mystere-2-cover{
-        padding: 5px;
-        /* background-color: red; */
-    }
+.mystere-2-cover{
+    padding: 5px;
+    /* background-color: red; */
+}
 
-    .mystere-2-img {
-        height: 320px;
-    }
+.mystere-2-img {
+    height: 320px;
+}
 
-    .mystere-1-container{
+.mystere-1-container{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
 
-        /* background-color: red; */
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
+.mystere-1-title-container {
+    padding: 5px;
+    /* background-color: darkgray; */
+}
 
-        padding: 10px;
-    }
+.mystere-1-title {
+    font-family: Karrik;
+    color: #3431A9;
+    font-size: 20px;
+}
 
-    .mystere-1-title-container {
-        padding: 5px;
-        /* background-color: darkgray; */
-    }
+.mystere-1-cover{
+    padding: 5px;
+    /* background-color: black; */
+}
 
-    .mystere-1-title {
-        font-family: Karrik;
-        color: #3431A9;
-        font-size: 20px;
-    }
-
-    .mystere-1-cover{
-        padding: 5px;
-        /* background-color: black; */
-    }
-
-    .mystere-1-img{
-     height: 300px;
-    }
-    }
+.mystere-1-img{
+ height: 300px;
+}
+}
 
 
-    /*DESKTOP*/
-    @media only screen and (min-width: 821px)  {
-
+/*DESKTOP*/
+@media only screen and (min-width: 821px)  {
   
-    .revue{
-        min-width: 1000px;
+.revue{
+    min-width: 1000px;
+    height: 100%;
+    min-height:100%;
+    background-color: #F5F4F4;
+    overflow: hidden;
+    display: inline-block;
+}
 
-        height: 100%;
-        min-height:100%;
-        background-color: #F5F4F4;
+.revue-container{
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    overflow-y: hidden;
+    overflow-x: visible;
+    /* background-color: purple; */
+}
 
-        overflow: hidden;
-        display: inline-block;
-    }
+.revue-main-content{
+    min-height: 100%;
+    height: 100%;
+    width: 256px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 10px 10px 10px;
+    
+}
 
-    .revue-container{
+.revue-title-container{
+    /* background-color: green; */
+    padding: 5px;
+}
 
-        width: 100%;
-        min-width: 100%;
-        min-height: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
+.revue-title{
+    color: #3431A9;
+    font-family: Karrik;
+    font-size: 2rem;
+}
 
-        margin-left: 48px;
-        overflow-y: hidden;
-        overflow-x: visible;
-        /* background-color: purple; */
+.revue-text-container{
+    padding: 5px;
+}
 
-    }
+.revue-text{
+    color: #3431A9;
+    font-family: Prata;
+    font-size: 0.9rem;
+    text-align: justify;
 
-    .revue-main-content{
-        min-height: 100%;
-        height: 100%;
+}
 
-        width: 256px;
-        max-width: 100%;
+.arrow-container{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;        
+    top:600px;
+    left: 200px;
+}
 
+.right-arrow{
+    height: 90px;
+    width: 170px; 
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-
-        padding: 40px 10px 10px 10px;
-        
-    }
-
-    /* .revue-main-content-container{
-  
-
-    } */
-
-    .revue-title-container{
-        /* background-color: green; */
-        padding: 5px;
-    }
-    .revue-title{
-
-        color: #3431A9;
-
-        font-family: Karrik;
-        font-size: 2rem;
-    }
-
-    .revue-text-container{
-        padding: 5px;
-    }
-
-    .revue-text{
-
-        color: #3431A9;
-
-        font-family: Prata;
-        font-size: 0.9rem;
-
-        text-align: justify;
-   
-    }
-
-    .arrow-container{
-        position: absolute;
-
-        width: fit-content;
-        height: fit-content;        
-
-        top:600px;
-        left: 200px;
-
-    }
-
-    .right-arrow{
-
-        height: 90px;
-        width: 170px; 
-    }
-
-    .mystere-revues{
-        
-        width: fit-content;
-        /* max-width: 672px; */
-        min-height: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-     
-        overflow: hidden;
-
-        /* background-color: chartreuse; */
-
-        padding: 54px 10px 10px 10px;
-        margin-left: 80px;
+.mystere-revues{
+    
+    width: fit-content;
+    /* max-width: 672px; */
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
  
-    }
+    overflow: hidden;
+    /* background-color: chartreuse; */
+    padding: 54px 10px 10px 10px;
+    margin-left: 80px;
 
-    .mystere-revues-container{
-        /* background-color: cornflowerblue; */
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-    }
+}
 
-    .mystere-2-container {
-        /* background-color: yellow; */
-        min-width: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
+.mystere-revues-container{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
 
-        padding: 10px 80px 10px 10px
-    }
+.mystere-2-container {
+    /* background-color: yellow; */
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 80px 10px 10px
+}
 
     
-    .mystere-2-title-container {
+.mystere-2-title-container {
+    display: flex;
+    padding: 5px;
+}
+
+.mystere-2-title {
+    text-align: center;
+    font-family: Karrik;
+    color: #3431A9;
+    font-size: 1.3rem;
+    transition: Color 0.2s ease-in-out;
+}
+
+.mystere-2-title:hover {
+    color: red;
+}
+
+.mystere-2-title a{
+    margin-left: 30px;
+}
+
+.mystere-2-cover{
         padding: 5px;
-    }
+}
 
-    .mystere-2-title {
-        text-align: center;
-        font-family: Karrik;
-        color: #3431A9;
-        font-size: 1.1rem;
-    }
+.mystere-2-img {
+    height: 520px;
+}
 
-    .mystere-2-cover{
-        padding: 5px;
-    }
+.mystere-1-container{
+    /* background-color: red; */
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 10px 10px 40px;
+}
 
-    .mystere-2-img {
-        height: 520px;
-    }
+.mystere-1-title-container {
+    padding: 5px;
+    /* background-color: darkgray; */
+}
 
-    .mystere-1-container{
+.mystere-1-title {
+    font-family: Karrik;
+    color: #3431A9;
+    font-size: 1.3rem;
+    transition: Color 0.2s ease-in-out;
+}
 
-        /* background-color: red; */
-        min-width: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
+.mystere-1-title:hover {
+    color: red;
+}
 
-        padding: 10px 10px 10px 40px;
-    }
+.mystere-1-title a{
+    margin-left: 160px;
+    
+}
 
-    .mystere-1-title-container {
-        padding: 5px;
-        /* background-color: darkgray; */
-    }
+.mystere-1-cover{
+    padding: 5px;
+    /* background-color: black; */
+}
 
-    .mystere-1-title {
-        font-family: Karrik;
-        color: #3431A9;
-        font-size: 20px;
-    }
-
-    .mystere-1-cover{
-        padding: 5px;
-        /* background-color: black; */
-    }
-
-    .mystere-1-img{
-     height: 520px;
-    }
+.mystere-1-img{
+    height: 516px;
+}
 }
  

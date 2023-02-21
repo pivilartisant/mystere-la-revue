@@ -9,8 +9,8 @@ export function ArtistesMystere(){
 
                     
 
-                         <div className="mystere-2-title-container">
-                                 <p className="mystere-2-title">Numéro 2 : <br></br> La liberté en politique</p>
+                         <div className="mystere-2-artist-title-container">
+                                 <p className="mystere-2-artist-title">Numéro 2 : <br></br> La liberté en politique</p>
                                  <Line1 trait={trait}/>
                          </div>
 
@@ -33,8 +33,8 @@ export function ArtistesMystere(){
                 </div>
 
                 <div className="mystere-1-artist-container">
-                    <div className="mystere-1-title-container">
-                            <p className="mystere-1-title">Numéro 1 : <br></br> La Contreverse</p>
+                    <div className="mystere-1-title-artist-container">
+                            <p className="mystere-1-artist-title">Numéro 1 : <br></br> La Contreverse</p>
                             <Line1 trait={trait}/>
                     </div>
 

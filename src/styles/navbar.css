@@ -57,6 +57,7 @@
     .navbar {
         position: fixed;
         min-height: 100%;
+        max-width: 48px;
         width: 48px;
         
         border-right: solid 0.5px #AEAEAE;
@@ -71,14 +72,19 @@
         color: #3431A9;
         
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     .navbar-container{
-        width: 100%;
+        max-width: 48px;
+        width: 48px;
+        overflow-y: hidden;
+        overflow-x:visible;
     }
     
     .nav-list{
-        width: 100%;
+        max-width: 48px;
+        width: 48px;
     
         display: flex;
         flex-direction: row;
@@ -93,3 +99,4 @@
         padding: 8px 4px 8px 4px;
     }
 }
+

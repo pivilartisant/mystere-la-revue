@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
+import { useState } from 'react';
+import circleGif from "../../assets/gif/circle.gif";
 import "../../styles/navbar.css";
+import { Circle } from "./Circle";
+
 
 export function Navbar() {
     return (
-
      <div className="navbar">
+
         <div className="navbar-container">
                 <ul className="nav-list">
                     <li>  <Link className="link" to="/revue">LA REVUE</Link> </li>
