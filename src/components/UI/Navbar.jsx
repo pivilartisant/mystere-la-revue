@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState } from 'react';
-import circleGif from "../../assets/gif/circle.gif";
 import "../../styles/navbar.css";
-import { Circle } from "./Circle";
+
 
 
 export function Navbar() {
