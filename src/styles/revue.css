@@ -282,7 +282,7 @@ src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
 }
 
 .mystere-2-title:hover {
-    color: red;
+    color: #f51645;
 }
 
 .mystere-2-title a{
