@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Karrik";
+    src: url("../assets/fonts/Web/WOFF/Karrik-Regular.woff") format("woff"),
+         url("../assets/fonts/Web/WOFF2/Karrik-Regular.woff2") format("woff2"),
+         url("../assets/fonts/Web/TFF/Karrik-Regular.ttf") format("truetype");
+    }
+    
+    @font-face {
+        font-family: "Prata";
+        src: url("../assets/fonts/Prata/Prata-Regular.ttf") format("truetype");   
+    }
+    
+    /*Mobile & Tablet*/
+    @media only screen and (max-width: 820px) and (min-width: 320px)  {
+    .info{
+        min-width: fit-content;
+        height: 100%;
+        min-height:100%;
+        background-color: #F5F4F4;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    .info-container{
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 48px;
+        overflow-y: hidden;
+        overflow-x: visible;
+    }
+    
+    .info-main-content{
+        min-height: 100%;
+        height: 100%;
+        width: 296px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 40px 10px 10px 10px;
+    }
+    
+    
+    .info-title-container{
+        padding: 5px;
+    }
+
+    .line-img{
+        height: 18px;
+      }
+    .info-title{
+        color: #3431A9;
+        font-family: Karrik;
+        font-size: 2rem;
+    }
+    
+    .info-text-container{
+        padding: 5px;
+    }
+    
+    .info-text{
+        color: #3431A9;
+        font-family: Prata;
+        font-size: 0.8rem;
+        text-align: justify;
+    
+    }
+    
+    /* .arrow-container{
+        margin: 0px 10px 0px 10px;
+        position: absolute;
+        top: 450px;
+        left: 170px;
+        
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .right-arrow{
+        width: 100;
+        height: 100;
+    } */
+    
+    .mystere-info{
+        width: fit-content;
+        max-width: 672px;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+     
+        overflow: hidden;
+        padding: 120px 10px 10px 10px;
+    }
+    
+    .mystere-info-container{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    
+    .mystere-container {
+        min-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 10px 10px 10px;
+    }
+       
+    .mystere-img {
+        height: 380px;
+    }
+    
+    }
+    
+    
+    /*DESKTOP*/
+    @media only screen and (min-width: 821px)  {
+      
+    .info{
+        min-width: 1000px;
+        height: 100%;
+        min-height:100%;
+        background-color: #F5F4F4;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    .info-container{
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 48px;
+        overflow-y: hidden;
+        overflow-x: visible;
+        /* background-color: purple; */
+    }
+    
+    
+    
+    .info-main-content{
+        min-height: 100%;
+        height: 100%;
+        width: fit-content;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 40px 10px 10px 10px;
+        
+    }
+    
+    .info-title-container{
+        padding: 5px;
+    }
+
+    .line-img{
+        height: 36px;
+      }
+
+    .info-title{
+        color: #3431A9;
+        font-family: Karrik;
+        font-size: 2rem;
+    }
+    
+    .info-text-container{
+        padding: 5px;
+        width: 296px;
+    }
+    
+    .info-text{
+        color: #3431A9;
+        font-family: Prata;
+        font-size: 0.9rem;
+        text-align: justify;
+    
+    }
+/*     
+    .arrow-container{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;        
+        top:600px;
+        left: 200px;
+    }
+    
+    .right-arrow{
+        height: 90px;
+        width: 170px; 
+    } */
+    
+    .mystere-info{
+        
+        width: fit-content;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+     
+        overflow: hidden;
+        padding: 100px 10px 10px 10px;
+        margin-left: 0px;
+    
+    }
+    
+    .mystere-info-container{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    
+    .mystere-container {
+        min-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 10px 10px 10px 10px
+    }
+ 
+    .mystere-img {
+        height: 500px;
+    }
+}
+     

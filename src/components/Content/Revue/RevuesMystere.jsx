@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export function RevuesMystere (props) {
     return (
         <div className="mystere-revues">
@@ -8,7 +10,9 @@ export function RevuesMystere (props) {
                     </div>
 
                     <div className="mystere-2-cover">
-                    <a href="/mystere2info"> <img src={props.mystere2} alt="" className="mystere-2-img"/></a>
+                    <Link to="/mystereInfo/2">
+                    <img src={props.mystere2} alt="" className="mystere-2-img"/>
+                    </Link>
                     </div>
 
                 </div>
@@ -19,7 +23,9 @@ export function RevuesMystere (props) {
                     </div>
 
                     <div className="mystere-1-cover">
-                        <a href="/mystere1info"> <img src={props.mystere1} alt="" className="mystere-1-img"/> </a>
+                        <Link to="/mystereInfo/1">
+                        <img src={props.mystere1} alt="" className="mystere-1-img"/>
+                        </Link>
                     </div>
 
                 </div>

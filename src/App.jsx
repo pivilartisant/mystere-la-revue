@@ -7,6 +7,7 @@ import { Bibliotheque } from "./pages/Bibliotheque";
 import { Artistes } from "./pages/Artistes";
 import { Communaute } from "./pages/Communaute";
 import { Navbar } from "./components/UI/Navbar";
+import { MystereInfo } from "./pages/MystereInfo";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/artistes" element={<Artistes/>}/>
           <Route path="/communaute" element={<Communaute/>}/>
           <Route path="/test" element={<Navbar/>}/>
+          <Route path="/mystereInfo/:id" element={<MystereInfo />}/>
         </Routes>
       </Router>
     </div>
